@@ -1,4 +1,4 @@
-package SingletonDesignPattern;
+package DesignPatterns.Singleton;
 
 // Thread Synchronized Java implementation of
 // singleton design pattern
