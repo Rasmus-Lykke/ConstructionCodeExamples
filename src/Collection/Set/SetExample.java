@@ -55,14 +55,15 @@ public class SetExample {
         //Implementere SortedSet, Ordering elemente by their natural ordering.
         System.out.println("TreeSet:");
         System.out.println("Alfabetisk:");
-        Set<String> treeSet1 = new TreeSet<String>(hashSet1);
+        Set<String> treeSet1 = new TreeSet<>(hashSet1);
         System.out.println(treeSet1);
         System.out.println("Rækkefølge:");
-        Set<Integer> treeSet2 = new TreeSet<Integer>(hashSet2);
+        Set<Integer> treeSet2 = new TreeSet<>(hashSet2);
         System.out.println(treeSet2);
         System.out.println("---------------------");
 
         //----------------LinkedHashSet---------------
+
         LinkedHashSet<String> linkedSet = new LinkedHashSet<>();
 
         linkedSet.add("Amalie");
